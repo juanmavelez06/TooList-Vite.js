@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif, "DRagonlord";
+}
+
+.TaskCard_Principal {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.TaskCard_div {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 450px;
+  height: auto;
+  padding: 15px 20px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.EliminarTarea {
+  background-color: black;
+  color: aquamarine;
+  font-style: italic;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s;
+  margin: 10px 140px;
+  border: none;
+  padding: 5px;
+}
+
+.EliminarTarea:hover {
+  background-color: aquamarine;
+  color: black;
+}
+
+h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  color: white;
+  font-style: italic;
+}
+
+.Form {
+  background-image: url(./img/FondoC.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 40px;
+  top: 30px;
+  float: left;
+  padding: 190px 340px;
+  border-radius: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Tarea-input {
+  border-radius: 5px;
+  border: 2px solid #000000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  color: black;
+  text-transform: inherit;
+  font-weight: bold;
+  height: 30px;
+  width: 500px;
+  display: block;
+  font-size: 14px;
+  position: fixed;
+  left: 125px;
+  top: 80px;
+  text-align: center;
+}
+
+.Tarea-input::placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+.Descripcion {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  font-size: 25px;
+  height: 200px;
+  width: 500px;
+  position: fixed;
+  top: 130px;
+  left: 125px;
+  color: white;
+  text-align: center;
+}
+.Descripcion::placeholder {
+  color: white;
+  font-size: 30px;
+}
+.ButtonAgregar {
+  position: fixed;
+  top: 340px;
+  left: 480px;
+}
+.GuardarTarea {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  color: black;
+  font-size: 16px;
+  border-radius: 10px;
+  font-style: italic;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 8px;
+  border: solid #000000;
+}
+
+video {
+  position: fixed;
+  left:0;
+  top: 0;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+/*Animacion de Texto-Fondo*/
+/*NO FUNCIONA*/
+
+
+.NoTask{
+  position: fixed;
+  top: 180px;
+  left: 500px;
+  margin-right: 25px;
+}
+
+.No_Task {
+  font-size: 50px;
+  text-align:end;
+  mix-blend-mode: multiply;
+}
